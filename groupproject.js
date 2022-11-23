@@ -458,7 +458,7 @@ window.onload = function () {
     C1Q2.onclick = function () {
         restart();
         checkAnswer();
-        //timer();
+        
 
 
         function playertotalmessage() { //displays to user how much points they have
