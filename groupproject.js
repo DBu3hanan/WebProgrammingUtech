@@ -349,7 +349,7 @@ window.onload = function () {
     {
         restart(); //shows the play again button
         checkAnswer(); //shows answer button
-        timer(); //brings up timer
+        //timer(); //brings up timer
 
 
 
@@ -458,7 +458,7 @@ window.onload = function () {
     C1Q2.onclick = function () {
         restart();
         checkAnswer();
-        timer();
+        //timer();
 
 
         function playertotalmessage() { //displays to user how much points they have
