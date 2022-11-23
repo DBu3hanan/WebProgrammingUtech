@@ -38,7 +38,6 @@
                 <input type="email" id="email" pattern=".+@SomeEmail.com">
                 <br><br>
     
-           
     
                 <label> Date of Birth
                     &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
@@ -49,8 +48,8 @@
                 <label>Address</label> <br>
                 <Label> Street &nbsp;&nbsp;&nbsp; </Label><input type="text" id="street" class="inp" > <br>
                 <Label> City &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </Label><input type="text" id="city" class="inp"> <br>
-                <Label> Town &nbsp;&nbsp;&nbsp; </Label><input type="text" id="town" class="inp"> <br>
-                <Label> Country </Label><input type="text" id="country" class="inp"> <br>
+                <Label> Town &nbsp;&nbsp;&nbsp; </Label><input type="text" id="town" class="inp"> </br>
+                <Label> Country </Label><input type="text" id="country" class="inp"> </br>
     
     
                 <br>
@@ -64,9 +63,9 @@
                 <input type="radio" id="edulevel" name="edulevel" value ="Tertiary"> <Label> Tertiary </Label><br>
                 <br>
     
-                <label>Gender: </label><br><br>
+                <label>Gender: </label></br></br>
                 <input type="radio" id="gender" name="gender" value="Male"> <Label> Male </Label>
-                <input type="radio" id="gender2" name="gender" value = "Female"> <Label> Female </Label><br>
+                <input type="radio" id="gender2" name="gender" value = "Female" > <Label> Female </Label><br>
     
     
                 <br>
@@ -78,22 +77,22 @@
                 <input type="submit" value="Register" id="submitbutton">
                 <input type="submit" value="Play Game" id="play" disabled onclick="playGame()">
                 <input type="submit" value="End Game" id="endgame" disabled onclick="endGame()">
-                <br><br>
+                </br></br>
                 <input type="reset" value="Quit" id="quit">
                 <input type="submit" value="Results " id="result" onclick="findPercentageScore()">
     
     
                 <!-- <input type="submit" value="Show Percentage" id="showpercentage" onclick=""> -->
                 <!--<input type = "reset" value = "Quit" id ="quit" onclick = "findPercentageScore()"-->
-                <br><br>
+                </br></br>
     
-                <label> Show Player Information</label><br>
+                <label> Show all Players </label><br>
                 <textarea id="showallplayers" rows="7" cols="20"> </textarea>
-                <br>
-    
+                </br>
     
             </fieldset>
-            </form>
+            </fieldset>
+            </forms>
     
     
     
@@ -135,8 +134,8 @@
     
     
 
-         <p id="playername"  class="questions center2">Name</p>
-        <p id="playertotal"  class="questions center2">PlayerTotal: </p>
+         <p id="playername"  class="questions centered">Name</p>
+        <p id="playertotal"  class="questions centered">PlayerTotal: </p>
     
           
     
@@ -174,14 +173,14 @@
               <td><button id="2Q3">$300</button></td>
                 <td><button id="3Q3" >$300</button></td>
                 <td><button id="4Q3">$300</button></td>
-                <td><button id = "5Q3">$300</button>
+                <td><button id = "5Q3">$300</button></button>
                 
             </tr>
             <tr>
               <td> <button id="1Q4">$400</button></td>
               <td><button id="2Q4">$400</button></td>
                 <td><button id="3Q4">$400</button></td>
-                <td><button id="4Q4">$400</button></td></td>
+                <td><button id="4Q4">$400</button></td>
                 <td><button id ="5Q4">$400</button></td>
                 
             </tr>
@@ -210,8 +209,8 @@
             <p id="parishq" class="questions test" hidden> How Many Parishes Does Jamaica Have?</p>
            <button id="parish1" class="test" hidden>14</button> 
            <button id="parish2"class="test" hidden>20</button> 
-           <button id="parish3" class="test"hidden>26</button> 
-           <button id="parish4"class="test" hidden>15</button> 
+           <button id="parish3" class="test" hidden>26</button> 
+           <button id="parish4" class="test" hidden>15</button> 
           </center>
     
           <!-- CATEGORY 1 QUESTION 2 ANSWERS -->
@@ -315,7 +314,7 @@
     <!--CATEGORY 3 QUESTION 4-->
     <center>
       <p id="cricket" class="questions" hidden>Which team has the most Hero CPL T20 titles?</p>
-      <button id="cricket1"hidden>Jamaica Tallawahs</button>
+      <button id="cricket1" hidden>Jamaica Tallawahs</button>
       <button id="cricket2" hidden>Barbados Royals</button>
       <button id="cricket3" hidden>St. Luca Zouks</button>
     </center>
@@ -408,7 +407,7 @@
 
     <!--Category 5 Question 4 for $400-->
     <center>
-      <p id = "langq" class="questions"hidden> Which language has the more native speakers: English or Spanish?</p>
+      <p id = "langq" class="questions" hidden> Which language has the more native speakers: English or Spanish?</p>
       <button id = "lang1" hidden>Spanish</button>
       <button id = "lang2" hidden>English</button>
       </center>
@@ -416,7 +415,7 @@
 
     <!--Category 5 Question 25 for $500-->
     <center>
-    <p id = "diceq" class="questions"hidden> How many dots appear on a pair of dice?</p>
+    <p id = "diceq" class="questions" hidden> How many dots appear on a pair of dice?</p>
     <button id = "dice1" hidden>42</button>
     <button id = "dice2" hidden>6</button>
     <button id = "dice3" hidden>36</button>
