@@ -38,6 +38,7 @@
                 <input type="email" id="email" pattern=".+@SomeEmail.com">
                 <br><br>
     
+           
     
                 <label> Date of Birth
                     &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
@@ -46,10 +47,10 @@
     
                 <br>
                 <label>Address</label> <br>
-                <Label> Street &nbsp;&nbsp;&nbsp; </Label><input type="text" id="street" class="inp" /> </br>
-                <Label> City &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </Label><input type="text" id="city" class="inp" /> <br>
-                <Label> Town &nbsp;&nbsp;&nbsp; </Label><input type="text" id="town" class="inp" /> </br>
-                <Label> Country </Label><input type="text" id="country" class="inp" /> </br>
+                <Label> Street &nbsp;&nbsp;&nbsp; </Label><input type="text" id="street" class="inp" > <br>
+                <Label> City &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </Label><input type="text" id="city" class="inp"> <br>
+                <Label> Town &nbsp;&nbsp;&nbsp; </Label><input type="text" id="town" class="inp"> <br>
+                <Label> Country </Label><input type="text" id="country" class="inp" /> <br>
     
     
                 <br>
@@ -58,41 +59,41 @@
     
     
     
-                <b><Label> Select Your Education Level: </Label></br></br></b>
-                <input type="radio" id="edulevel1" name="edulevel" value ="Secondary" /> <Label> Secondary </Label>
-                <input type="radio" id="edulevel" name="edulevel" value ="Tertiary" /> <Label> Tertiary </Label><br>
+                <b><Label> Select Your Education Level: </Label><br><br><b>
+                <input type="radio" id="edulevel1" name="edulevel" value ="Secondary"> <Label> Secondary </Label>
+                <input type="radio" id="edulevel" name="edulevel" value ="Tertiary"> <Label> Tertiary </Label><br>
                 <br>
     
-                <label>Gender: </label></br></br>
-                <input type="radio" id="gender" name="gender" value="Male" /> <Label> Male </Label>
-                <input type="radio" id="gender2" name="gender" value = "Female" /> <Label> Female </Label></br>
+                <label>Gender: </label><br><br>
+                <input type="radio" id="gender" name="gender" value="Male"> <Label> Male </Label>
+                <input type="radio" id="gender2" name="gender" value = "Female"> <Label> Female </Label><br>
     
     
                 <br>
                 <textarea id="showpercentage" rows="7" cols="20"></textarea>
     
     
-                </br></br>
+                <br><br>
     
                 <input type="submit" value="Register" id="submitbutton">
                 <input type="submit" value="Play Game" id="play" disabled onclick="playGame()">
                 <input type="submit" value="End Game" id="endgame" disabled onclick="endGame()">
-                </br></br>
+                <br><br>
                 <input type="reset" value="Quit" id="quit">
                 <input type="submit" value="Results " id="result" onclick="findPercentageScore()">
     
     
                 <!-- <input type="submit" value="Show Percentage" id="showpercentage" onclick=""> -->
                 <!--<input type = "reset" value = "Quit" id ="quit" onclick = "findPercentageScore()"-->
-                </br></br>
+                <br><br>
     
                 <label> Show all Players </label><br>
                 <textarea id="showallplayers" rows="7" cols="20"> </textarea>
-                </br>
+                <br>
     
     
             </fieldset>
-            </forms>
+            </form>
     
     
     
@@ -173,7 +174,7 @@
               <td><button id="2Q3">$300</button></td>
                 <td><button id="3Q3" >$300</button></td>
                 <td><button id="4Q3">$300</button></td>
-                <td><button id = "5Q3">$300</button></button>
+                <td><button id = "5Q3">$300</button>
                 
             </tr>
             <tr>
